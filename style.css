@@ -1,8 +1,42 @@
-div {
+body {
   text-align: center;
 }
 
 ul {
-  text-align: center;
   list-style-position: inside;
+  padding-left: 0;
+}
+
+body {
+  background: lightblue;
+}
+
+h1 {
+  color: red;
+  font-family: "Train One", cursive;
+}
+
+h2 {
+  color: purple;
+  font-family: "Lobster", cursive;
+}
+
+.darkblue {
+  color: darkblue;
+  font-family: "Lobster", cursive;
+}
+
+p {
+  font-size: 25px;
+}
+
+.boxed {
+  background: pink;
+  border-style: solid;
+  border-color: white;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 300px;
+  align-content: center;
 }
